@@ -1,0 +1,8 @@
+#cloud-config
+
+# Set the hostname for this machine (takes precedence over hostname assigned by DHCP lease).
+#hostname: myhost
+# Authorize SSH keys for the `rancher` sudoer user
+ssh_authorized_keys:
+  - ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBChw29QQf45wQfRGMWDjQvWXJ2vQC9DiwtBMDwa8M2qz9mg0oplacAi976qq+lIPJL1i8Jr00zAUcor8OFogncQ=
+  
